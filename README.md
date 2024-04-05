@@ -63,11 +63,11 @@ This disclosure aims to provide transparency and assistance in utilizing the Pri
 
 		double[] xData = Arrays.stream(natural).asDoubleStream().toArray();
 	
-// Creates a Chart . Library Source :  https://knowm.org/open-source/xchart/xchart-change-log/
+// Creates a Chart . (Library Source)
 
     XYChart chart = QuickChart.getChart("Normality Plot", "X", "Y", "y(x)", xData, CollectGaussianValues);
 
-// Shows it . Library Source :  https://knowm.org/open-source/xchart/xchart-change-log/
+// Shows it . (Library Source)
 
     new SwingWrapper(chart).displayChart();
 		
